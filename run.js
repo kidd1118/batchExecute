@@ -12,7 +12,7 @@ function run (callback){
       if (i >= total) {
         return;
       }
-      callback();
+      callback && callback();
       i++;
       setTimeout(func, bufferTime);
     }
