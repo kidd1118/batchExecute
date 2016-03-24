@@ -3,7 +3,7 @@ function run (callback){
   var section = 1;
   var sectionNumber = 4;
   var bufferTime = 1000;
-  var total = 100;
+  var total = 500;
   
   function func() {
 
